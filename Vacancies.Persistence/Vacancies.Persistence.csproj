@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EF\" />
+    <None Remove="Entities\" />
+    <None Remove="Repositories\" />
+    <None Remove="Entities\CV\" />
+    <None Remove="Entities\Category\" />
+    <None Remove="Entities\Vacancy\" />
+    <None Remove="Entities\Skill\" />
+    <None Remove="Entities\Education\" />
+    <None Remove="Entities\Experience\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EF\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Entities\CV\" />
+    <Folder Include="Entities\Category\" />
+    <Folder Include="Entities\Vacancy\" />
+    <Folder Include="Entities\Skill\" />
+    <Folder Include="Entities\Education\" />
+    <Folder Include="Entities\Experience\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vacancies.Api\Vacancies.Api.csproj" />
+    <ProjectReference Include="..\Vacancies.Application\Vacancies.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

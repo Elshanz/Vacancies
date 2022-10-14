@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "H7MDixtY+xivQ0P5sR/y1MJE0ZcHX52lQVCKl/rgZKV872xqO0qyxMpY56t+Mz7WwkjRbvx9eue2dtVQp8nP+A==",
+  "success": true,
+  "projectFilePath": "/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Application/Vacancies.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
