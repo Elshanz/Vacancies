@@ -1,0 +1,5 @@
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Persistence/obj/Debug/net6.0/Vacancies.Persistence.csproj.AssemblyReference.cache
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Persistence/obj/Debug/net6.0/Vacancies.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Persistence/obj/Debug/net6.0/Vacancies.Persistence.AssemblyInfoInputs.cache
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Persistence/obj/Debug/net6.0/Vacancies.Persistence.AssemblyInfo.cs
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Persistence/obj/Debug/net6.0/Vacancies.Persistence.csproj.CoreCompileInputs.cache

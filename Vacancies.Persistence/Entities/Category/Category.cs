@@ -3,7 +3,8 @@ namespace Vacancies.Persistence.Entities
 {
 	public class Category
 	{
-		public int Name { get; set; }
+		public int Id { get; set; }
+		public string Name { get; set; }
 	}
 }
 

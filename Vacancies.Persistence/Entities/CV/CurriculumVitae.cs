@@ -6,7 +6,9 @@ namespace Vacancies.Persistence.Entities
 		public int Id { get; set; }
 		public string Name { get; set; }
         public string Surname { get; set; }
-		public int Age { get; set; }
+        public string Position { get; set; }
+        public int ExpectedSalary { get; set; }
+        public int Age { get; set; }
 		public string Gender { get; set; }
 		public int Phone { get; set; }
 		public string Email { get; set; }
@@ -15,9 +17,9 @@ namespace Vacancies.Persistence.Entities
         public DateTime PublishedOn { get; set; }
         public DateTime ExpiresOn { get; set; }
 
-        public ICollection<Education> Educations { get; set; }
-        public List<Experience> Experiences { get; set; }
-        public List<Skill> Skills { get; set; }
+        public ICollection<CurriculumVitae_Education> CurriculumVitae_Educations { get; set; }
+        public ICollection<CurriculumVitae_Experience> CurriculumVitae_Experiences { get; set; }
+        public ICollection<CurriculumVitae_Skill> CurriculumVitae_Skills { get; set; }
     }
 }
 

@@ -1,15 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "4PjQ38eM6kLjCHD7osWF9PP3E4ZyS5/Fbsk8NFs18e9ZzXN1Z0FkeCVqsiLbbs+dMqGlJUamVGW+9NRRxHWDQg==",
+  "dgSpecHash": "4fbiukUP0+/WJSrHPWfhqcpA2/lEK4SwOgkgPI6aWFM5MKVhe+8QbPPA1vHrTyMYEndKnJg0ZMReCPLFml8VNg==",
   "success": true,
-  "projectFilePath": "/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Api/Vacancies.Api.csproj",
+  "projectFilePath": "/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/Vacancies.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/elshanzamanov/.nuget/packages/efcore.namingconventions/6.0.0/efcore.namingconventions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore/6.0.10/microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.10/microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.10/microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.7/microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/npgsql/6.0.7/npgsql.6.0.7.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.7/npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/elshanzamanov/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

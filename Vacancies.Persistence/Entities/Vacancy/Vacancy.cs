@@ -19,7 +19,7 @@ namespace Vacancies.Persistence.Entities
         public Category Category { get; set; }
         public Education Education { get; set; }
         public Experience Experience { get; set; }
-        public List<Skill> Skills { get; set; }
+        public ICollection<Vacancy_Skill> Vacancy_Skills { get; set; }
     }
 }
 

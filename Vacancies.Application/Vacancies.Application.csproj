@@ -9,12 +9,14 @@
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Services\" />
+    <None Remove="Models\CurriculumVitae\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="Models\CurriculumVitae\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Vacancies.Api\Vacancies.Api.csproj" />
+    <ProjectReference Include="..\Vacancies.Persistence\Vacancies.Persistence.csproj" />
   </ItemGroup>
 </Project>

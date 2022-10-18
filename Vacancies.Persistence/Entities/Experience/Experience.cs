@@ -10,4 +10,3 @@ namespace Vacancies.Persistence.Entities
         public DateTime EndDate { get; set; }
 	}
 }
-

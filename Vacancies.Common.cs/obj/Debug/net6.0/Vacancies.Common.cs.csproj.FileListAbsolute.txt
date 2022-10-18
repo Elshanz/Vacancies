@@ -1,0 +1,12 @@
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/bin/Debug/net6.0/Vacancies.Common.cs.deps.json
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/bin/Debug/net6.0/Vacancies.Common.cs.dll
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/bin/Debug/net6.0/Vacancies.Common.cs.pdb
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.csproj.AssemblyReference.cache
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.AssemblyInfoInputs.cache
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.AssemblyInfo.cs
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.csproj.CoreCompileInputs.cache
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.dll
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/refint/Vacancies.Common.cs.dll
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/Vacancies.Common.cs.pdb
+/Users/elshanzamanov/Projects/Vacancies.Api/Vacancies.Common.cs/obj/Debug/net6.0/ref/Vacancies.Common.cs.dll
