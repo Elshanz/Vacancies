@@ -14,7 +14,7 @@ namespace Vacancies.Persistence.Repositories
 	{
         private readonly DbSet<CurriculumVitae> _dbSet;
 
-		internal CurriculumVitaeRepository(VacanciesDbContext context)
+		public CurriculumVitaeRepository(VacanciesDbContext context)
 		{
             _dbSet = context.Set<CurriculumVitae>();
 		}

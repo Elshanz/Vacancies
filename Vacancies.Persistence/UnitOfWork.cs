@@ -12,7 +12,7 @@ namespace Vacancies.Persistence
         int SaveChanges();
         Task<int> SaveChangesAsync();
     }
-    internal class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
 	{
         private readonly VacanciesDbContext _context;
         private IDbContextTransaction _transaction;

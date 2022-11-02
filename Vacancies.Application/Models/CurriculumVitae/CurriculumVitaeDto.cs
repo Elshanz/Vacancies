@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Vacancies.Application.Models.CurriculumVitae
+namespace Vacancies.Application.Models
 {
 	public class CurriculumVitaeDto
 	{

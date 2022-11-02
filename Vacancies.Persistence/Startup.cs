@@ -15,6 +15,7 @@ namespace Vacancies.Persistence
 
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
 			services.AddScoped<ICurriculumVitaeRepository, CurriculumVitaeRepository>();
+			services.AddScoped<IExperienceRepository, ExperienceRepository>();
 		}
     }
 }

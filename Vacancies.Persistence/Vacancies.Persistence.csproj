@@ -21,6 +21,7 @@
     <None Remove="Microsoft.Extensions.Configuration.Abstractions" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="EFCore.NamingConventions" />
+    <None Remove="EF\Configuration\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EF\" />
@@ -32,6 +33,7 @@
     <Folder Include="Entities\Skill\" />
     <Folder Include="Entities\Education\" />
     <Folder Include="Entities\Experience\" />
+    <Folder Include="EF\Configuration\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />

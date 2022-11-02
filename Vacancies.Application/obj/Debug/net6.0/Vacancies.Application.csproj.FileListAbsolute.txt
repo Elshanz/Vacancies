@@ -1,0 +1,15 @@
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.csproj.AssemblyReference.cache
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.AssemblyInfoInputs.cache
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.AssemblyInfo.cs
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.csproj.CoreCompileInputs.cache
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/bin/Debug/net6.0/Vacancies.Application.deps.json
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/bin/Debug/net6.0/Vacancies.Application.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/bin/Debug/net6.0/Vacancies.Application.pdb
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/bin/Debug/net6.0/Vacancies.Persistence.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/bin/Debug/net6.0/Vacancies.Persistence.pdb
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.csproj.CopyComplete
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/refint/Vacancies.Application.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/Vacancies.Application.pdb
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/obj/Debug/net6.0/ref/Vacancies.Application.dll

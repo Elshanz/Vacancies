@@ -1,5 +1,5 @@
 ﻿using System;
-using Vacancies.Application.Models.CurriculumVitae;
+using Vacancies.Application.Models;
 using Vacancies.Persistence;
 using Vacancies.Persistence.Entities;
 using Vacancies.Persistence.Repositories;
@@ -12,7 +12,6 @@ namespace Vacancies.Application.Services
         Task<CurriculumVitaeDetailsDto> GetAsync(int cvId);
         Task<int> CreateAsync(CurriculumVitaeToCreate curriculumVitaeToCreate);
         Task UpdateAsync(CurriculumVitaeToUpdate curriculumVitaeToCreate);
-        //salam
     }
     public class CurriculumVitaeService : ICurriculumVitaeService
     {
@@ -44,16 +43,21 @@ namespace Vacancies.Application.Services
                 PublishedOn = DateTime.Now,
                 ExpiresOn = DateTime.Now.AddDays(30),
 
-                CurriculumVitae_Educations = curriculumVitaeToCreate.CurriculumVitae_Educations.Select(n => new CurriculumVitae_Education
+                Educations = curriculumVitaeToCreate.Educations.Select(n => new Education
                 {
-                    CurriculumVitaeId = n.CurriculumVitaeId,
-                    EducationId = n.EducationId
+                    Degree = n.Degree,
+                    Institution = n.Institution,
+                    Profession = n.Profession,
+                    StartDate = n.StartDate,
+                    EndDate = n.EndDate
                 }).ToList(),
 
-                CurriculumVitae_Experiences = curriculumVitaeToCreate.CurriculumVitae_Experiences.Select(n => new CurriculumVitae_Experience
+                Experiences = curriculumVitaeToCreate.Experiences.Select(n => new Experience
                 {
-                    CurriculumVitaeId = n.CurriculumVitaeId,
-                    ExperienceId = n.ExperienceId
+                    Company = n.Company,
+                    JobTitle = n.JobTitle,
+                    StartDate = n.StartDate,
+                    EndDate = n.EndDate
                 }).ToList(),
 
                 CurriculumVitae_Skills = curriculumVitaeToCreate.CurriculumVitae_Skills.Select(n => new CurriculumVitae_Skill
