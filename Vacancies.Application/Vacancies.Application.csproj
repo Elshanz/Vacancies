@@ -9,12 +9,20 @@
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Services\" />
+    <None Remove="Models\CurriculumVitae\" />
+    <None Remove="Models\Experience\" />
+    <None Remove="Models\Education\" />
+    <None Remove="Utils\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="Models\CurriculumVitae\" />
+    <Folder Include="Models\Experience\" />
+    <Folder Include="Models\Education\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Vacancies.Api\Vacancies.Api.csproj" />
+    <ProjectReference Include="..\Vacancies.Persistence\Vacancies.Persistence.csproj" />
   </ItemGroup>
 </Project>

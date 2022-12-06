@@ -1,9 +1,8 @@
 ﻿using System;
 namespace Vacancies.Persistence.Entities
 {
-	public class Vacancy_Skill
+	public class Vacancy_Skill : BaseEntity
 	{
-		public int Id { get; set; }
 		public int VacancyId { get; set; }
 		public Vacancy Vacancy { get; set; }
 		public int SkillId { get; set; }

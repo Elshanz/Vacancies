@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacancies.Application", "Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacancies.Persistence", "Vacancies.Persistence\Vacancies.Persistence.csproj", "{99596F68-96E5-4EBA-A8CC-D981CBF13E04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacancies.Common.cs", "Vacancies.Common.cs\Vacancies.Common.cs.csproj", "{749642B2-0E5F-4491-94C2-7395EE2CD61B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{99596F68-96E5-4EBA-A8CC-D981CBF13E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99596F68-96E5-4EBA-A8CC-D981CBF13E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99596F68-96E5-4EBA-A8CC-D981CBF13E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749642B2-0E5F-4491-94C2-7395EE2CD61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749642B2-0E5F-4491-94C2-7395EE2CD61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749642B2-0E5F-4491-94C2-7395EE2CD61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749642B2-0E5F-4491-94C2-7395EE2CD61B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

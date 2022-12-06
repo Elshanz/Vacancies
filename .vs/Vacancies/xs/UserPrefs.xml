@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{F6B17205-D016-463D-834C-F4C200DD2204}|Default">
+  <MonoDevelop.Ide.ItemProperties.Vacancies.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Vacancies.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Vacancies.Persistence/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vacancies.Application/Utils/TransactionManager.cs">
     <Files>
-      <File FileName="Vacancies.Application/Class1.cs" Line="1" Column="1" />
-      <File FileName="Vacancies.Persistence/Class1.cs" Line="8" Column="1" />
+      <File FileName="Vacancies.Persistence/EF/VacanciesDbContext.cs" />
+      <File FileName="Vacancies.Api/appsettings.json" Line="15" Column="2" />
+      <File FileName="Vacancies.Application/Utils/TransactionManager.cs" Line="14" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,11 +19,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Vacancies.Persistence FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Vacancies.Application FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
