@@ -1,4 +1,7 @@
-﻿using Vacancies.Application;
+﻿using FluentValidation.AspNetCore;
+using Serilog;
+using Vacancies.Application;
+using Vacancies.Application.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureServices(builder.Configuration);
+
+builder.Services.AddControllers().AddFluentValidation(fv =>
+{
+    fv.RegisterValidatorsFromAssemblyContaining<CategoryToCreateValidator>();
+    fv.AutomaticValidationEnabled = false;
+});
+
+// Add Serilog
+
+var logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 
 var app = builder.Build();
 

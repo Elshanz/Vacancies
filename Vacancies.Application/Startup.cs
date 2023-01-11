@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Vacancies.Application.Services;
+using Vacancies.Application.Utils;
 
 namespace Vacancies.Application
 {
@@ -11,7 +12,11 @@ namespace Vacancies.Application
 		{
             Persistence.Startup.ConfigureServices(services, configuration);
 
+			services.AddScoped<ICategoryService, CategoryService>();
 			services.AddScoped<ICurriculumVitaeService, CurriculumVitaeService>();
+			services.AddScoped<ISkillService, SkillService>();
+
+			services.AddScoped<ITransactionManager, TransactionManager>();
 		}
 	}
 }

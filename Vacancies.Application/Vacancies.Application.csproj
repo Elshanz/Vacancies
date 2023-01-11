@@ -13,6 +13,12 @@
     <None Remove="Models\Experience\" />
     <None Remove="Models\Education\" />
     <None Remove="Utils\" />
+    <None Remove="Models\Category\" />
+    <None Remove="FluentValidation" />
+    <None Remove="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <None Remove="Microsoft.Extensions.Configuration.Abstractions" />
+    <None Remove="Models\Skill\" />
+    <None Remove="Models\Vacancy\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -21,8 +27,16 @@
     <Folder Include="Models\Experience\" />
     <Folder Include="Models\Education\" />
     <Folder Include="Utils\" />
+    <Folder Include="Models\Category\" />
+    <Folder Include="Models\Skill\" />
+    <Folder Include="Models\Vacancy\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Vacancies.Persistence\Vacancies.Persistence.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
   </ItemGroup>
 </Project>

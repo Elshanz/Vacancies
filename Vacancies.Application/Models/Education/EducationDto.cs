@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Vacancies.Application.Models.Education
+namespace Vacancies.Application.Models
 {
 	public class EducationDto
 	{

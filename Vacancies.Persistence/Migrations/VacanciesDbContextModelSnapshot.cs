@@ -291,10 +291,6 @@ namespace Vacancies.Persistence.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_at");
 
-                    b.Property<int>("CurriculumVitaeId")
-                        .HasColumnType("integer")
-                        .HasColumnName("curriculum_vitae_id");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
@@ -304,18 +300,8 @@ namespace Vacancies.Persistence.Migrations
                         .HasColumnType("text")
                         .HasColumnName("name");
 
-                    b.Property<int>("VacancyId")
-                        .HasColumnType("integer")
-                        .HasColumnName("vacancy_id");
-
                     b.HasKey("Id")
                         .HasName("pk_skills");
-
-                    b.HasIndex("CurriculumVitaeId")
-                        .HasDatabaseName("ix_skills_curriculum_vitae_id");
-
-                    b.HasIndex("VacancyId")
-                        .HasDatabaseName("ix_skills_vacancy_id");
 
                     b.ToTable("skills", (string)null);
                 });
@@ -495,27 +481,6 @@ namespace Vacancies.Persistence.Migrations
                         .HasConstraintName("fk_experiences_curriculum_vitaes_curriculum_vitae_id");
 
                     b.Navigation("CurriculumVitae");
-                });
-
-            modelBuilder.Entity("Vacancies.Persistence.Entities.Skill", b =>
-                {
-                    b.HasOne("Vacancies.Persistence.Entities.CurriculumVitae", "CurriculumVitae")
-                        .WithMany()
-                        .HasForeignKey("CurriculumVitaeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("fk_skills_curriculum_vitaes_curriculum_vitae_id");
-
-                    b.HasOne("Vacancies.Persistence.Entities.Vacancy", "Vacancy")
-                        .WithMany()
-                        .HasForeignKey("VacancyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("fk_skills_vacancies_vacancy_id");
-
-                    b.Navigation("CurriculumVitae");
-
-                    b.Navigation("Vacancy");
                 });
 
             modelBuilder.Entity("Vacancies.Persistence.Entities.Vacancy", b =>

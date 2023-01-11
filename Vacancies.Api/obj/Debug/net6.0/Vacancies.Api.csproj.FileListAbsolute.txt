@@ -44,3 +44,16 @@
 /Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/obj/Debug/net6.0/ref/Vacancies.Api.dll
 /Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Humanizer.dll
 /Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/FluentValidation.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Api/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

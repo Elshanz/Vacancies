@@ -14,8 +14,10 @@ namespace Vacancies.Persistence
 			services.AddDbContext<VacanciesDbContext>(n => n.UseNpgsql(connectionString).UseSnakeCaseNamingConvention());
 
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
+			services.AddScoped<ICategoryRepository, CategoryRepository>();
 			services.AddScoped<ICurriculumVitaeRepository, CurriculumVitaeRepository>();
-			services.AddScoped<IExperienceRepository, ExperienceRepository>();
+			services.AddScoped<ISkillRepository, SkillRepository>();
+			services.AddScoped<IVacancyRepository, VacancyRepository>();
 		}
     }
 }

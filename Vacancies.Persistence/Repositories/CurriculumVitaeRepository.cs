@@ -9,6 +9,7 @@ namespace Vacancies.Persistence.Repositories
     {
         Task<CurriculumVitae> CreateAsync(CurriculumVitae curriculumVitae);
         Task<CurriculumVitae> GetAsync(int cvId);
+        Task<IEnumerable<CurriculumVitae>> GetCVsAsync();
     }
     public class CurriculumVitaeRepository : ICurriculumVitaeRepository
 	{
@@ -28,6 +29,11 @@ namespace Vacancies.Persistence.Repositories
         public async Task<CurriculumVitae> GetAsync(int cvId)
         {
             return await _dbSet.FindAsync(cvId);
+        }
+
+        public async Task<IEnumerable<CurriculumVitae>> GetCVsAsync()
+        {
+            return await _dbSet.ToArrayAsync();
         }
     }
 }

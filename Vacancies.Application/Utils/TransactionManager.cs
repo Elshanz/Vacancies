@@ -13,6 +13,7 @@ namespace Vacancies.Application.Utils
     public class TransactionManager : ITransactionManager
 	{
         private readonly IUnitOfWork _unitofwork;
+
 		public TransactionManager(IUnitOfWork unitOfWork)
 		{
             _unitofwork = unitOfWork;

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CiSww5Kz1dCtvoNXnKF7+dFmcRmNK3DjPtGMhCc3hblQK0064N/46YCpB/lDdAr8Tvv+WQrEOxxtfmSi3bEEMQ==",
+  "dgSpecHash": "LOoQ7fLQHtWKcojOn6um8Gp9m7EQrmLWRvm3B6Gj0EzDpLuHjktNaZLnDgvPx7TMso+Hd8IPE3tY0ftqHzauCw==",
   "success": true,
   "projectFilePath": "/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/Vacancies.Application.csproj",
   "expectedPackageFiles": [
     "/Users/elshanzamanov/.nuget/packages/efcore.namingconventions/6.0.0/efcore.namingconventions.6.0.0.nupkg.sha512",
+    "/Users/elshanzamanov/.nuget/packages/fluentvalidation/11.2.2/fluentvalidation.11.2.2.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore/6.0.10/microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.10/microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "/Users/elshanzamanov/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.10/microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",

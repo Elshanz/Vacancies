@@ -1,23 +1,36 @@
 ﻿<Properties StartupConfiguration="{F6B17205-D016-463D-834C-F4C200DD2204}|Default">
   <MonoDevelop.Ide.ItemProperties.Vacancies.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Vacancies.Application/Utils/TransactionManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vacancies.Application/Services/VacancyService.cs">
     <Files>
-      <File FileName="Vacancies.Persistence/EF/VacanciesDbContext.cs" />
-      <File FileName="Vacancies.Api/appsettings.json" Line="15" Column="2" />
-      <File FileName="Vacancies.Application/Utils/TransactionManager.cs" Line="14" Column="3" />
+      <File FileName="Vacancies.Api/Controllers/SkillController.cs" />
+      <File FileName="Vacancies.Api/Controllers/VacancyController.cs" />
+      <File FileName="Vacancies.Application/Services/VacancyService.cs" Line="180" Column="50" />
+      <File FileName="Vacancies.Application/Services/SkillService.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Vacancies" expanded="True" />
+          <Node name="Vacancies" expanded="True">
+            <Node name="Vacancies.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Vacancies.Application" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Vacancies.Persistence" expanded="True">
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/elshanzamanov/Documents/GitHub/Vacancies/Vacancies.Application/Utils/TransactionManager.cs" relfile="Vacancies.Application/Utils/TransactionManager.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

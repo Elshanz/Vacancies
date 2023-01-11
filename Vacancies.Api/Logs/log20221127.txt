@@ -1,0 +1,8 @@
+11/27/2022 00:12:03 +04:00 [Information] - Message: Executing Action SkillService.GetSkillByIdAsync()
+11/27/2022 00:13:39 +04:00 [Information] - Message: Executing Action SkillService.GetSkillByIdAsync()
+11/27/2022 00:14:48 +04:00 [Information] - Message: Executing Action SkillService.GetSkillByIdAsync()
+11/27/2022 00:15:12 +04:00 [Information] - Message: Executing Action SkillService.UpdateSkillByIdAsync()
+11/27/2022 00:19:28 +04:00 [Information] - Message: Executing Action CategoryService.GetCategoryById()
+11/27/2022 00:21:23 +04:00 [Information] - Message: Executing Action SkillService.UpdateSkillByIdAsync()
+11/27/2022 00:22:00 +04:00 [Information] - Message: Executing Action SkillService.UpdateSkillByIdAsync()
+11/27/2022 00:22:25 +04:00 [Information] - Message: Executing Action SkillService.GetSkillByIdAsync()
